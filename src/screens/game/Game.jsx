@@ -13,13 +13,16 @@ import { motion } from "framer-motion";
 import arrowRight from "../../assets/icons/arrow_right_alt.svg";
 import audioCorrect from "../../assets/audios/true.mp3";
 import audioUncorrect from "../../assets/audios/wrong.mp3";
+import useSound from "use-sound";
 
 const Game = React.memo(({ giftLink, registerLink }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const audioRefWin = useRef(new Audio("/sounds/win_round.wav"));
-  const audioRefLose = useRef(new Audio("/sounds/loose_round.wav"));
+  const [playAudioCorrect] = useSound(audioCorrect);
+  const [playAudioUncorrect] = useSound(audioUncorrect);
+  const [playAudioWin] = useSound(audioCorrect);
+  const [playAudioLoose] = useSound(audioUncorrect);
 
   const [searchParams] = useSearchParams();
   const [index, setIndex] = useState(0);
@@ -104,24 +107,24 @@ const Game = React.memo(({ giftLink, registerLink }) => {
 
   useEffect(() => {
     if (JSON.parse(localStorage.getItem("offVoice")) === false) {
-      if (isEnd && currentChapter === 1 && score >= 2) {
-        audioRefWin.current.play();
-      } else if (isEnd && currentChapter === 2 && score >= 3) {
-        audioRefWin.current.play();
-      } else if (isEnd && currentChapter === 3 && score >= 4) {
-        audioRefWin.current.play();
-      } else if (isEnd && currentChapter === 3 && score >= 5) {
-        audioRefWin.current.play();
+      if (isEnd && currentChapter === 1 && score >= 6) {
+        playAudioWin();
+      } else if (isEnd && currentChapter === 2 && score >= 8) {
+        playAudioWin();
+      } else if (isEnd && currentChapter === 3 && score >= 10) {
+        playAudioWin();
+      } else if (isEnd && currentChapter === 3 && score >= 12) {
+        playAudioWin();
       }
 
-      if (isEnd && currentChapter === 1 && score < 2) {
-        audioRefLose.current.play();
-      } else if (isEnd && currentChapter === 2 && score < 3) {
-        audioRefLose.current.play();
-      } else if (isEnd && currentChapter === 3 && score < 4) {
-        audioRefLose.current.play();
-      } else if (isEnd && currentChapter === 3 && score < 5) {
-        audioRefLose.current.play();
+      if (isEnd && currentChapter === 1 && score < 6) {
+        playAudioLoose();
+      } else if (isEnd && currentChapter === 2 && score < 8) {
+        playAudioLoose();
+      } else if (isEnd && currentChapter === 3 && score < 10) {
+        playAudioLoose();
+      } else if (isEnd && currentChapter === 3 && score < 12) {
+        playAudioLoose();
       }
     }
   }, [isEnd]);
@@ -162,16 +165,13 @@ const Game = React.memo(({ giftLink, registerLink }) => {
   }, [currentIndex]);
 
   const swiped = (dir, isCorrect) => {
-    const audioRefCorrect = new Audio(audioCorrect);
-    const audioRefUncorrect = new Audio(audioUncorrect);
-
     if (!shuffledFootballers[currentIndex]) return;
 
     if (dir === "left" && !isCorrect) {
       setIsCorrectChoose(true);
       setRightSwipeCount((prevCount) => prevCount + 1);
       if (JSON.parse(localStorage.getItem("offVoice")) === false) {
-        audioRefCorrect.play();
+        playAudioCorrect();
       }
     } else if (dir === "right" && isCorrect) {
       setIsCorrectChoose(true);
@@ -183,12 +183,12 @@ const Game = React.memo(({ giftLink, registerLink }) => {
         shuffledFootballers[currentIndex].image,
       ]);
       if (JSON.parse(localStorage.getItem("offVoice")) === false) {
-        audioRefCorrect.play();
+        playAudioCorrect();
       }
     } else {
       setScore((prevScore) => prevScore - 1);
       setIsCorrectChoose(false);
-      audioRefUncorrect.play();
+      playAudioUncorrect();
     }
 
     if (dir === "right") {
@@ -201,7 +201,7 @@ const Game = React.memo(({ giftLink, registerLink }) => {
     if (!(index === 0 && rightSwipeCount <= 2)) {
       setTimeout(() => {
         setShowMessage(false);
-      }, 500);
+      }, 1500);
     } else {
       setOnRightSwipe(true);
     }
@@ -225,11 +225,9 @@ const Game = React.memo(({ giftLink, registerLink }) => {
   };
 
   const handleSwipe = (direction, isCorrect) => {
-    if (swiping) return;
-
     setTimeout(() => {
       setSwiping(true);
-    }, 500);
+    }, 1500);
 
     swiped(direction, isCorrect);
     setDragX(0);
@@ -367,7 +365,7 @@ const Game = React.memo(({ giftLink, registerLink }) => {
                             setSwiping(false);
                             setShowMessage(false);
                             setOnRightSwipe(false);
-                          }, 500)}
+                          }, 1500)}
                         </p>
                       </div>
                     )
@@ -382,7 +380,7 @@ const Game = React.memo(({ giftLink, registerLink }) => {
                               setSwiping(false);
                               setShowMessage(false);
                               setOnRightSwipe(false);
-                            }, 500)}
+                            }, 1500)}
                           </p>
                           <p>Верно!</p>
                         </>
@@ -393,7 +391,7 @@ const Game = React.memo(({ giftLink, registerLink }) => {
                               setSwiping(false);
                               setShowMessage(false);
                               setOnRightSwipe(false);
-                            }, 500)}
+                            }, 1500)}
                           </p>
                           <p>Не верно</p>
                         </>
@@ -409,7 +407,7 @@ const Game = React.memo(({ giftLink, registerLink }) => {
                             <p style={{ opacity: 0 }}>
                               {setTimeout(() => {
                                 setSwiping(false);
-                              }, 500)}
+                              }, 1500)}
                             </p>
                           </>
                         ) : (
@@ -418,7 +416,7 @@ const Game = React.memo(({ giftLink, registerLink }) => {
                             <p style={{ opacity: 0 }}>
                               {setTimeout(() => {
                                 setSwiping(false);
-                              }, 500)}
+                              }, 1500)}
                             </p>
                           </>
                         )}
