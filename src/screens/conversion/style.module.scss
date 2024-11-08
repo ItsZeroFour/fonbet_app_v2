@@ -1,0 +1,156 @@
+.final__wrapper {
+  background: var(--color-black);
+  border: 1px solid rgba(51, 85, 51, 0.333);
+  border-radius: 10px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+
+  transform-style: preserve-3d;
+  user-select: none;
+  padding: 0 25px;
+
+  @media (max-width: 450px) {
+    border: none;
+    border-radius: 0;
+    overflow-y: auto !important;
+  }
+}
+
+.final__container,
+.final__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.final__container {
+  height: 100%;
+}
+
+.final__main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(51, 85, 51, 0.333);
+  backdrop-filter: blur(150px);
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.final__image {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color-red);
+    filter: blur(100px);
+    z-index: -1;
+  }
+}
+
+.final__sum {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  width: 170px;
+  top: 70%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.final__main > p {
+  margin-top: 30px;
+  font-size: 18px;
+
+  @media (max-width: 370px) {
+    font-size: 14px;
+  }
+}
+
+.final__promo {
+  width: 100%;
+  background: var(--color-white);
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 10px;
+
+  p {
+    color: var(--color-black);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+
+  button {
+    padding: 8px;
+    background: var(--color-red);
+    border-radius: 5px;
+  }
+}
+
+.final__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  margin-top: 10px;
+
+  position: relative;
+
+  @media (max-width: 450px) {
+    margin-top: auto;
+    margin-bottom: 90px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background: var(--color-red);
+    top: 40%;
+    z-index: -1;
+    border-radius: 50%;
+    filter: blur(50px);
+
+    opacity: 0.8;
+  }
+
+  a {
+    padding: 10px;
+    background: var(--color-red);
+    border-radius: 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  button {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    background: none;
+    color: var(--color-white);
+  }
+}

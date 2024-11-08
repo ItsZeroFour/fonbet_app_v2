@@ -1,0 +1,926 @@
+{
+  "items": [
+    {
+      "index": 1,
+      "round": "Раунд 1",
+      "task": "Собрать 5 футболистов, которые за карьеру забили более 100 голов в РПЛ",
+      "footballers": [
+        {
+          "name": "Артем Дзюба",
+          "image": "Дзюба.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Александр Кержаков",
+          "image": "Кержаков.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Роман Павлюченко",
+          "image": "Павлюченко.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Федор Смолов",
+          "image": "Смолов.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Дмитрий Лоськов",
+          "image": "Лоськов.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Александр Кокорин",
+          "image": "Кокорин.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Квинси Промес",
+          "image": "Промес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Вагнер Лав",
+          "image": "Вагнер-Лав.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Дмитрий Сычев",
+          "image": "Сычев.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Федор Чалов",
+          "image": "Чалов.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 2,
+      "round": "Раунд 2",
+      "task": "Собрать 5 футболистов, которые становились чемпионами Англии",
+      "footballers": [
+        {
+          "name": "Илкай Гюндоган",
+          "image": "Гюндоган.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Харри Кейн",
+          "image": "Кейн.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Рахим Стерлинг",
+          "image": "Стерлинг.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Джейми Варди",
+          "image": "Варди.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Сон Хын Мин",
+          "image": "Сон.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Луис Суарес",
+          "image": "Суарес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Коул Палмер",
+          "image": "Палмер.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Ромелу Лукаку",
+          "image": "Лукаку.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Тибо Куртуа",
+          "image": "Куртуа.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Маркус Рэшфорд",
+          "image": "Рэшфорд.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 3,
+      "round": "Раунд 3",
+      "task": "Собрать 5 футболистов, которые забивали в финале Лиги чемпионов",
+      "footballers": [
+        {
+          "name": "Гарет Бэйл",
+          "image": "Бэйл.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Криштиану Роналду",
+          "image": "Роналду.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Роберт Левандовски",
+          "image": "Левандовски.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Мохамед Салах",
+          "image": "Мохамед-Салах.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Садио Мане",
+          "image": "Садио-Мане.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Серхио Рамос",
+          "image": "Серхио-Рамос.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Антуан Гризманн",
+          "image": "Антуан-Гризманн.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Кевин Де Брюйне",
+          "image": "Кевин-Де-Брюйне.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Эден Азар",
+          "image": "Эден-Азар.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Федор Смолов",
+          "image": "Федор-Смолов.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 4,
+      "round": "Раунд 4",
+      "task": "Собрать 5 бразильцев, которые сейчас играют в РПЛ",
+      "footballers": [
+        {
+          "name": "Педро",
+          "image": "Педро.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Вендел",
+          "image": "Вендел.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Келлвен",
+          "image": "Келлвен.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Битело",
+          "image": "Бителло.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Кайо",
+          "image": "Кайо.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Джон Кордоба",
+          "image": "Кордоба.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Барко",
+          "image": "Барко.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Хесус Медина",
+          "image": "Медина.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Хорхе Карраскаль",
+          "image": "Карраскаль.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Жерзино Ньямси",
+          "image": "Ньямси.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 5,
+      "round": "Раунд 5",
+      "task": "Собрать 5 футболистов с опытом игры за сборную России",
+      "footballers": [
+        {
+          "name": "Магомед Оздоев",
+          "image": "Оздоев.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Константин Тюкавин",
+          "image": "Тюкавин.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Арсен Захарян",
+          "image": "Захарян.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Наир Тикнизян",
+          "image": "Тикнизян.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Матвей Сафонов",
+          "image": "Сафонов.jpg",
+          "isCorrect": true
+        },
+
+        {
+          "name": "Максим Ненахов",
+          "image": "Максим-Ненахов.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Данила Козлов",
+          "image": "Козлов.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Антон Митрюшкин",
+          "image": "Митрюшкин.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Константин Марадишвили",
+          "image": "Марадишвили.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Данил Глебов",
+          "image": "Глебов.jpg",
+          "isCorrect": true
+        }
+      ]
+    },
+
+    {
+      "index": 6,
+      "round": "Раунд 6",
+      "task": "Собрать 5 футболистов из РПЛ с опытом игры в европейских клубах",
+      "footballers": [
+        {
+          "name": "Игорь Акинфеев",
+          "image": "Акинфеев.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Клаудиньо",
+          "image": "Клаудиньо.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Антон Миранчук",
+
+          "image": "Миранчук.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Роналдо",
+          "image": "Роналдо.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Дмитрий Баринов",
+          "image": "Баринов.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Милан Гайич",
+          "image": "Гайич.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Николай Комличенко",
+          "image": "Комличенко.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Сергей Пиняев",
+          "image": "Пиняев.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Максим Глушенков",
+          "image": "Глушенков.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Вячеслав Караваев",
+          "image": "Караваев.jpg",
+          "isCorrect": true
+        }
+      ]
+    },
+
+    {
+      "index": 7,
+      "round": "Раунд 7",
+      "task": "Собрать 5 футболистов не старше 25 лет из клубов вне топ-5 Европы",
+      "footballers": [
+        {
+          "name": "Йохан Бакайоко",
+          "image": "Бакайоко.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Александр Кокорин",
+          "image": "Кокорин.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Руни Бардаджи",
+          "image": "Бардагджи.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Никола Чавлина",
+          "image": "Чавлина.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Ален Халилович",
+          "image": "Халилович.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Усман Диоманде",
+          "image": "Диоманде.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Керем Актюркоглу",
+          "image": "Актюркоглу.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Мартин Витик",
+          "image": "Витик.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Хаким Зиеш",
+          "image": "Зиеш.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Хашим Мастур",
+          "image": "Мастур.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "round": "Раунд 8",
+      "task": "Собрать 5 футболистов старше 30 лет, которые ранее побеждали в ЛЧ",
+      "footballers": [
+        {
+          "name": "Лукас Васкес",
+          "image": "Васкес.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Леон Горецка",
+          "image": "Горецка.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Марио Балотелли",
+          "image": "Балотелли.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Джэк Грилиш",
+          "image": "Грилиш.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Бенжамен Павар",
+          "image": "Павар.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Марко Арнаутович",
+          "image": "Арнаутович.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Мейсон Маунт",
+          "image": "Маунт.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Серхио Роберто",
+          "image": "Серхи-Роберто.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Кай Хаверц",
+          "image": "Хаверц.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Джердан Шакири",
+          "image": "Шакири.jpg",
+          "isCorrect": true
+        }
+      ]
+    },
+
+    {
+      "index": 9,
+      "round": "Раунд 9",
+      "task": "Собрать 5 топ-футболистов, завершивших карьеру в 2024 году",
+      "footballers": [
+        {
+          "name": "Хави",
+          "image": "Хави.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Златан Ибрагимович",
+          "image": "Ибрагимович.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Андрес Иньеста",
+          "image": "Иньеста.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Тьяго Алькантара",
+          "image": "Тьяго.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Месут Озил",
+          "image": "Озил.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Леонардо Бонуччи",
+          "image": "Бонуччи.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Гарет Бэйл",
+          "image": "Бэйл.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Гонсало Игуаин",
+          "image": "Игуаин.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Райан Бертран",
+          "image": "Бертран.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Шкодран Мустафи",
+          "image": "Мустафи.jpg",
+          "isCorrect": true
+        }
+      ]
+    },
+
+    {
+      "index": 10,
+      "round": "Раунд 10",
+      "task": "Собрать 5 вратарей младше 33 лет, выигрывавших ЛЧ",
+      "footballers": [
+        {
+          "name": "Кепа Арисабалага",
+          "image": "Кепа.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Марк-Андре Тер Штеген",
+          "image": "Тер-Штеген.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Эдерсон",
+          "image": "Эдерсон.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Алисон Бекер",
+          "image": "Алиссон.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Андрей Лунин",
+          "image": "Лунин.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Кейлор Навас",
+          "image": "Навас.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Свен Ульрайх",
+          "image": "Ульрайх.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Мануэль Нойер",
+          "image": "Нойер.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Симон Миньоле",
+          "image": "Миньоле.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Хорди Масип",
+          "image": "Масип.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 11,
+      "round": "Раунд 11",
+      "task": "Собрать 5 нападающих с ценником свыше 100 млн евро по Трансфермаркт",
+      "footballers": [
+        {
+          "name": "Эрлинг Холанд",
+          "image": "Холанд.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Килиан Мбаппе",
+          "image": "Мбаппе.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Виктор Осимхен",
+          "image": "Осимхен.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Душан Влахович",
+          "image": "Влахович.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Лаутаро Мартинес",
+          "image": "Мартинез.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Харри Кейн",
+          "image": "Кейн.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Рассмус Хёйлунд",
+          "image": "Хёйлунд.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Хулиан Альварес",
+          "image": "Альварес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Дарвин Нуньес",
+
+          "image": "Нуньез.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Александр Исак",
+          "image": "Исак.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 12,
+      "round": "Раунд 12",
+      "task": "Собрать 5 полузащитников младше 25 лет, выигрывавших чемпионат мира или чемпионат Европы",
+      "footballers": [
+        {
+          "name": "Ламин Ямаль",
+          "image": "Ямаль.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Педри",
+          "image": "Педри.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Фермин Лопес",
+          "image": "Фермин.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Родри",
+          "image": "Родри.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Энцо Фернандес",
+          "image": "Энцо.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Дани Ольмо",
+          "image": "Ольмо.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Алексис Макалистер",
+          "image": "Макалистер.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Родриго Де Поль",
+          "image": "rodrigo-de-paul.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Леандро Паредес",
+          "image": "Паредес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Эсекьель Паласиос",
+          "image": "Паласиос.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 13,
+      "round": "Раунд 13",
+      "task": "Собрать 5 футболистов, которые сыграли больше 7 сезонов за одну команду",
+      "footballers": [
+        {
+          "name": "Игорь Акинфеев",
+          "image": "Акинфеев.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Луис Суарес",
+          "image": "Суарес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Коке",
+          "image": "Коке.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Ариц Элустондо",
+          "image": "Элустондо.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Томас Мюллер",
+          "image": "Мюллер.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Фелипе Коутиньо",
+          "image": "Коутиньо.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Лионель Месси",
+          "image": "Месси.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Фабиньо",
+          "image": "Фабиньо.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Рияд Марез",
+          "image": "Марез.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Малком",
+          "image": "Малком.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "round": "Раунд 14",
+      "task": "Собрать 5 футболистов, которые поиграли более чем в 7 чемпионатах",
+      "footballers": [
+        {
+          "name": "Анхель Ди Мария",
+          "image": "Ди-Мария.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Радамель Фалькао",
+          "image": "Фалькао.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Зоран Тошич",
+          "image": "Тошич.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Кейсуке Хонда",
+          "image": "Хонда.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Хамес Родригес",
+          "image": "Хамес.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Халк",
+          "image": "Халк.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Луис Суарес",
+          "image": "Суарес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Неманья Матич",
+          "image": "Матич.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Альваро Мората",
+          "image": "Мората.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Криштиану Роналду",
+          "image": "Роналду.jpg",
+          "isCorrect": false
+        }
+      ]
+    },
+
+    {
+      "index": 15,
+      "round": "Раунд 15",
+      "task": "Собрать 5 футболистов, чей брат тоже играет на профессиональном уровне",
+      "footballers": [
+        {
+          "name": "Ромелу Лукаку",
+          "image": "Лукаку.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Ферран Торрес",
+          "image": "Торрес.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Алексей Миранчук",
+          "image": "Ал-Миранчук.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Мануэль Нойер",
+          "image": "Нойер.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Рональд Араухо",
+          "image": "Араухо.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Джуд Беллингем",
+          "image": "Биллингем.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Родри",
+          "image": "Родри.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Джанлуиджи Доннарума",
+          "image": "Доннарума.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Торган Азар",
+          "image": "Торган-Азар.jpg",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "round": "Раунд 16",
+      "task": "Кто из этих футболистов ни разу за карьеру не получал красную карточку",
+      "footballers": [
+        {
+          "name": "Зинедин Зидан",
+          "image": "Зидан.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Лионель Месси",
+          "image": "Месси.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Андрес Иньеста",
+          "image": "Иньеста.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Пепе",
+          "image": "Пепе.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Рауль",
+          "image": "Рауль.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Игорь Акинфеев",
+          "image": "Акинфеев.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Райан Гиггз",
+          "image": "Гиггз.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Филипп Лам",
+          "image": "Филипп-Лам.jpg",
+          "isCorrect": true
+        },
+        {
+          "name": "Пол Скоулз",
+          "image": "Пол-Скоулз.jpg",
+          "isCorrect": false
+        },
+        {
+          "name": "Карим Бензема",
+          "image": "Карим-Бензема.jpg",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
